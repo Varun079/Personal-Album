@@ -1,0 +1,88 @@
+<html>
+    <head></head>
+    <style>
+        H1{
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-size: 35pt;
+        text-align: center;
+        color: white;
+        }
+        .menu{
+            width:100%;
+            height: 70px;
+            margin: 0px auto;
+        }
+        .menu ul{
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(48, 45, 45);
+        }
+        .menu ul li{
+            float:left;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            text-align: center;
+            list-style: none;
+            opacity: 0.9;
+        }
+        .menu ul li ul{
+            display: none;
+            opacity: 0.7;
+        }
+        .menu ul li:hover > ul{
+            display:block;
+        }
+        .menu li a{
+            text-decoration: none;
+            color: white;
+        }
+        .menu a:hover{
+            background-color: rgb(16, 17, 17);
+        }
+        #img-nat{
+            height:360px;
+            width: 720px;
+            margin: 10px;
+            
+        }
+    </style>
+    <body style="background-color: rgb(0, 0, 0);">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Home</a>
+                </li>
+                <li>Gallery
+                    <ul>
+                        <li><a href="nature.html">Nature</a></li>
+                        <li><a href="portrait.html">Portrait</a></li>
+                        <li><a href="wildlife.html">WildLife</a></li>
+                        <li><a href="landscapes.html">Landscapes</a></li>
+                        <li><a href="food.html">Food</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.linkedin.com/in/karthikdigamarthi-00051724b">About Me</a></li>
+                <li><a href="https://www.instagram.com/_https.dk/?igshid=YmMyMTA2M2Y=">Contact Us</a></li>
+            </ul>
+        </div>
+        <br>
+        <h1>Nature Photography</h1>
+        <div>
+            <a href="https://wallpaper.dog/large/10880383.jpg"><img id="img-nat" src="https://wallpaper.dog/large/10880383.jpg"></a>
+            <a href="https://wallpaperaccess.com/full/31213.jpg"><img id="img-nat" src="https://wallpaperaccess.com/full/31213.jpg"></a>
+            <a href="https://images6.alphacoders.com/338/338596.jpg"><img id="img-nat" src="https://images6.alphacoders.com/338/338596.jpg"></a>
+            <a href="https://my4kwallpapers.com/wp-content/uploads/2020/09/Nature-4k-Wallpaper.jpg"><img id="img-nat" src="https://my4kwallpapers.com/wp-content/uploads/2020/09/Nature-4k-Wallpaper.jpg"></a>
+            <a href="https://wallpaper.dog/large/17236993.jpg"><img id="img-nat" src="https://wallpaper.dog/large/17236993.jpg"></a>
+            <a href="https://images6.alphacoders.com/476/476288.jpg"><img id="img-nat" src="https://images6.alphacoders.com/476/476288.jpg"></a>
+            <a href="https://images.wallpapersden.com/image/download/sunset-4k-ultra-hd-2021_bG5nbG2UmZqaraWkpJRobWllrWdma2U.jpg"><img id="img-nat" src="https://images.wallpapersden.com/image/download/sunset-4k-ultra-hd-2021_bG5nbG2UmZqaraWkpJRobWllrWdma2U.jpg"></a>
+            <a href="https://3.bp.blogspot.com/-eilZTdgbWPA/XFUltCS4Z1I/AAAAAAAABz0/feDxTa3Emtsb3Wx4xxu0hWnFrohqtwQfwCKgBGAs/w0/mountain-lake-scenery-nature-cottage-25-4K.jpg"><img id="img-nat" src="https://3.bp.blogspot.com/-eilZTdgbWPA/XFUltCS4Z1I/AAAAAAAABz0/feDxTa3Emtsb3Wx4xxu0hWnFrohqtwQfwCKgBGAs/w0/mountain-lake-scenery-nature-cottage-25-4K.jpg"></a>
+            <a href="https://wallpapershome.com/images/pages/ico_h/23734.jpg"><img id="img-nat" src="https://wallpapershome.com/images/pages/ico_h/23734.jpg"></a>
+            <a href="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8NGslMjBuYXR1cmV8ZW58MHx8MHx8&w=1000&q=80"><img id="img-nat" src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8NGslMjBuYXR1cmV8ZW58MHx8MHx8&w=1000&q=80"></a>
+        </div>
+    </body>
+</html>
